@@ -12,3 +12,4 @@
 #     else:
 #         return (x*sum(x-1))
 # print(sum(5))
+

@@ -1,27 +1,48 @@
-def calcu(a,b,c):
-    i=1
-    while i<=a:
-        if c=="+":
-            print(a+b)
-        elif c=="-":
-            print(a-b)
-        elif c=="*":
-            print(a*b) 
-        elif c=="%":
-            print(a%b)
-        else:
-            print("I can't do anything with the number")
-        break
-n=int(input("enter the 1st number"))
-m=int(input("enter the 2nd number"))
-o=input("enter the operator")
-calcu(n,m,o)
+# def calcu(a,b,c):
+#     i=1
+#     while i<=a:
+#         if c=="+":
+#             print(a+b)
+#         elif c=="-":
+#             print(a-b)
+#         elif c=="*":
+#             print(a*b) 
+#         elif c=="%":
+#             print(a%b)
+#         else:
+#             print("I can't do anything with the number")
+#         break
+# n=int(input("enter the 1st number"))
+# m=int(input("enter the 2nd number"))
+# o=input("enter the operator")
+# calcu(n,m,o)
 
 
 
-# def factorial(x):
-#     if x == 1:
-#         return 1
-#     else: 
-#         return(x * factorial(x-1))
-# print(factorial(4))   
+# def add(a,b):
+#     a=a+b
+#     print(a)
+# def sub(c,n):
+#     c=c-n
+#     print(c)
+# def mul(s,d):
+#     s=s*d
+#     print(s)
+# def div(j,l):
+#     j=j//l
+#     print(j)
+# def c():
+#     n=int(input("enter the 1st number"))
+#     m=int(input("enter the 2nd number"))
+#     o=input("enter the operator")
+#     if o=="+":
+#         add(n,m)
+#     elif o=="-":
+#         sub(n,m)
+#     elif o=="*":
+#         mul(n,m)
+#     elif o=="//":
+#         div(n,m)
+# c()
+
+
